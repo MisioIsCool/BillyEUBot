@@ -28,7 +28,7 @@
 
 });
 
-await s4d.client.login('ODg0NDY2NzE5NzQ4NDAzMzMw.YTY50g.Jd4W3iP-8uGwTOrRvEwnc9n5F3Q').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+await s4d.client.login(process.env.token).catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 
                 return s4d;
