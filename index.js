@@ -33,4 +33,6 @@ await s4d.client.login(process.env.token).catch((e) => { s4d.tokenInvalid = true
 
                 return s4d;
                 })();
+
+                bot.login(process.env.token);
             
