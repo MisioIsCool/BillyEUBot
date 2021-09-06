@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_on_connected" id="o^}I4tv70$oq6f|B9B!/" x="725" y="163">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="2{Ejp.xc7+%GcTlhi63/">
+        <value name="IF0">
+          <block type="logic_compare" id="iru~]MX/9uiQ%8-%ed*X">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="y*_?.(R,+}e#@M4%s2k,"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="51w5d(*C.sa6Fz{.FnL7">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="9~9#q{G[y(+aG=199Y|H">
+            <value name="CONTENT">
+              <shadow type="text" id="SROU;8)KZc`l1z24y!f{">
+                <field name="TEXT">pong</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_login" id="q(89TuVLBN@LpJ!ICu$^" x="165" y="532">
+    <value name="TOKEN">
+      <block type="text" id="J::^bX?]el_VsMM/7S]m">
+        <field name="TEXT">ODg0NDY2NzE5NzQ4NDAzMzMw.YTY50g.Jd4W3iP-8uGwTOrRvEwnc9n5F3Q</field>
+      </block>
+    </value>
+  </block>
+</xml>
